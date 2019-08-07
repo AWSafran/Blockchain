@@ -37,6 +37,7 @@ if __name__ == '__main__':
         block_string = json.dumps(last_block, sort_keys=True).encode()
         proof = 0
         while not valid_proof(block_string, proof):
+            print(f"Failure: {proof}")
             proof += 1
 
         # TODO: When found, POST it to the server {"proof": new_proof}
