@@ -138,7 +138,7 @@ node_identifier = str(uuid4()).replace('-', '')
 # Instantiate the Blockchain
 blockchain = Blockchain()
 
-@app.route('/valid-chain', methods=['GET'])
+@app.route('valid-chain', methods=['GET'])
 def validity_check():
     response = {
         'valid': blockchain.valid_chain(blockchain.chain)
