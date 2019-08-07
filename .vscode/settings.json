@@ -3,5 +3,6 @@
         "activityBar.background": "#2E1D71",
         "titleBar.activeBackground": "#40299E",
         "titleBar.activeForeground": "#FAF9FD"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\Safra\\.virtualenvs\\Blockchain-R7ZK-xQ5\\Scripts\\python.exe"
 }
